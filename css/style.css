@@ -1,0 +1,32 @@
+:root{
+    /* bg-dark to black */
+}
+
+section.returnal{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-text{
+    padding-top: 230px; 
+    padding-bottom: 50px;
+}
+p{
+    font-size: 14px !important;
+}
+.buy-button{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+/* 
+h2: 2.5rem
+h3: 2.3rem
+h4: 1.3rem
+h5 / small / footer: 0.9rem
+*/
