@@ -29,6 +29,15 @@ section.it-takes-two{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+section.ps-plus-bg{
+    background-color: #BEBCBC;
+}
+
+section.ps-now-bg{
+    background-color: #161C3B;
+    color: white;
+}
 /* 
 h2: 2.5rem
 h3: 2.3rem
