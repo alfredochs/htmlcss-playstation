@@ -23,7 +23,12 @@ p{
     font-size: 10px;
 }
 
-
+section.it-takes-two{
+    background-image: url(../img/);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* 
 h2: 2.5rem
 h3: 2.3rem
