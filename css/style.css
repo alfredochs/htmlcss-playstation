@@ -38,6 +38,10 @@ section.ps-now-bg{
     background-color: #161C3B;
     color: white;
 }
+
+footer.footer-bg {
+    background-color: #00439C;
+}
 /* 
 h2: 2.5rem
 h3: 2.3rem
