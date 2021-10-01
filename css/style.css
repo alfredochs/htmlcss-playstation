@@ -68,14 +68,19 @@ section.returnal{
     opacity: 0.6;
 }
 
-
+.card-tittle{
+    font-size: 12px;
+}
 section.it-takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.it-takes-two-padding{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 section.ps-plus-bg{
     background-color: #BEBCBC;
 }
