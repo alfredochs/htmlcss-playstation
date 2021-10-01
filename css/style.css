@@ -1,27 +1,70 @@
 :root{
-    /* bg-dark to black */
+
+}
+.bg-black{
+    background-color: black;
+}
+.btn-danger{
+    background-color: #CD3D10;
 }
 
+.bar-button{
+    color: #737373;
+    font-size: 20px;
+}
 section.returnal{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* CARD GAMES */
+.br-card{
+    border-radius: 15px;
+}
+
+.after-card::after{
+    content: '';
+    width: calc(100% + -16px);
+    height: calc(100% + 8px);
+    top: -4px;
+    left: 8px;
+    border: 2px solid #0072CE;
+    position: absolute;
+    border-radius: 20px;
+}
+/*************************************/
+/* TEXT SECTION */
+.ps-color{
+    color: #0072CE;
+}
+.text-section-gray{
+    color: #747474;
+}
+
+/*************************************/
+
+/* CARD */
+.border-bottom-ps-color{
+    border-bottom: 2pxs solid #0072CE;
+}
 .section-text{
     padding-top: 230px; 
     padding-bottom: 50px;
 }
-p{
-    font-size: 14px !important;
+.after-card-products::after{
+    content: '';
+    width: 96%;
+    height: 100%;
+    bottom: 0;
+    left: 4px;
+    border-bottom: 2px solid #0072CE;
+    position: absolute;
 }
-.buy-button{
-    background-color: red;
-    border-radius: 20px;
-    color: white;
-    padding: 5px;
-    font-size: 10px;
+.my-opacity{
+    opacity: 0.6;
 }
+
 
 section.it-takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -42,9 +85,30 @@ section.ps-now-bg{
 footer.footer-bg {
     background-color: #00439C;
 }
-/* 
+/*
 h2: 2.5rem
 h3: 2.3rem
 h4: 1.3rem
 h5 / small / footer: 0.9rem
 */
+h2{font-size: 2.5rem;}
+h3{font-size: 2.0rem;}
+h4{font-size: 1.3rem;}
+h5{font-size: 0.9rem;}
+p{font-size: 0.9rem;}
+
+/* Footer */
+footer div ul {
+    list-style: none;
+    color: white;
+}
+.globe-style{
+    max-height: 30px;
+    padding-right: 20px;
+
+}
+
+/* BUTTON */
+.rounded-pill{
+    font-size: 12px;
+}
