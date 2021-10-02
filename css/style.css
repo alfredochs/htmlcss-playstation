@@ -1,3 +1,4 @@
+/* RESET */
 :root{
 
 }
@@ -10,6 +11,12 @@
 .btn-ps-plus{
     background-color: #D9DADD;
 }
+h2{font-size: 2.5rem;}
+h3{font-size: 2.0rem;}
+h4{font-size: 1.3rem;}
+h5{font-size: 0.9rem;}
+p{font-size: 0.9rem;}
+.small-text{font-size: 0.9rem;}
 
 .bar-button{
     color: #737373;
@@ -44,6 +51,8 @@ section.returnal{
 .text-section-gray{
     color: #747474;
 }
+.text-section-container {padding: 40px 0;}
+.text-section-tittle{margin-bottom: 20px;}
 
 /*************************************/
 
@@ -93,18 +102,6 @@ section.ps-now-bg{
 footer.footer-bg {
     background-color: #00439C;
 }
-/*
-h2: 2.5rem
-h3: 2.3rem
-h4: 1.3rem
-h5 / small / footer: 0.9rem
-*/
-h2{font-size: 2.5rem;}
-h3{font-size: 2.0rem;}
-h4{font-size: 1.3rem;}
-h5{font-size: 0.9rem;}
-p{font-size: 0.9rem;}
-.small-text{font-size: 0.9rem;}
 
 /* Footer */
 footer div ul {
