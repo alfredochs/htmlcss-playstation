@@ -18,14 +18,21 @@ p{font-size: 0.9rem;}
 
 
 /* NAV Bootstrap*/
+.nav-link{
+    color: black;
+}
+.animacion{
+    transition: 0.5s;
+}
 .nav-link:focus + .dropdown-menu{
     display: block;
     left: 0;
-    top: 70px;
+    top: 74px;
     width: 100vw;
     min-height: 50px;
     position: fixed;
-    
+    border-radius: 0%;
+    border: 0;
 }
 
 /* ************** */
