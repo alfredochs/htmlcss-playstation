@@ -21,9 +21,7 @@ p{font-size: 0.9rem;}
 .nav-link{
     color: black;
 }
-.animacion{
-    transition: 0.5s;
-}
+
 .nav-link:focus + .dropdown-menu{
     display: block;
     left: 0;
@@ -173,6 +171,12 @@ main{
 
 /* Hover */
 /* Links Nav */
+.my-chevron{
+    transition: .3s;
+}
+.nav-link:focus .my-chevron{
+    transform: rotate(180deg);
+}
 
 
 
@@ -190,3 +194,5 @@ main{
 section .after-card:hover::after{
     display: block;
 }
+
+/* Animation */
