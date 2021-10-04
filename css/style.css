@@ -1,16 +1,8 @@
 /* RESET */
-:root{
 
-}
-.bg-black{
-    background-color: black;
-}
-.btn-danger{
-    background-color: #CD3D10;
-}
-.btn-ps-plus{
-    background-color: #D9DADD;
-}
+.bg-black{background-color: black;}
+.btn-danger{background-color: #CD3D10;}
+.btn-ps-plus{background-color: #D9DADD;}
 h2{font-size: 2.5rem;}
 h3{font-size: 2.0rem;}
 h4{font-size: 1.3rem;}
@@ -22,6 +14,21 @@ p{font-size: 0.9rem;}
     color: #737373;
     font-size: 20px;
 }
+
+
+
+/* NAV Bootstrap*/
+.nav-link:focus + .dropdown-menu{
+    display: block;
+    left: 0;
+    top: 70px;
+    width: 100vw;
+    min-height: 50px;
+    position: fixed;
+    
+}
+
+/* ************** */
 section.returnal{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -42,6 +49,7 @@ section.returnal{
     border: 2px solid #0072CE;
     position: absolute;
     border-radius: 20px;
+    display: none;
 }
 /*************************************/
 /* TEXT SECTION */
@@ -57,6 +65,10 @@ section.returnal{
 /*************************************/
 
 /* CARD */
+.my-card{
+    transition: .3s;
+}
+
 .border-bottom-ps-color{
     border-bottom: 2pxs solid #0072CE;
 }
@@ -77,6 +89,17 @@ section.returnal{
 .my-opacity{
     opacity: 0.6;
 }
+.container-registered{
+    position: relative;
+    padding-right: 15px;
+}
+.fa-registered{
+    font-size: 10px;
+    top: 8px;
+    position: absolute;
+
+}
+
 
 .card-tittle{
     font-size: 12px;
@@ -103,6 +126,8 @@ section.ps-now-bg{
 footer.footer-bg {
     background-color: #00439C;
 }
+
+
 
 /* Footer */
 footer div ul {
@@ -136,7 +161,15 @@ main{
 }
 
 
+
+
+
 /* Hover */
+/* Links Nav */
+
+
+
+/* PS5 PRODUCTS */
 .after-card-products:hover .my-opacity{
     opacity: 1;
 }
@@ -144,3 +177,9 @@ main{
     display: flex;
 }
 
+/* Cards games */
+ section .my-card:hover{transform: translateY(-15px);}
+/* Bisogna mettere la transition sul elemento non in hover */
+section .after-card:hover::after{
+    display: block;
+}
